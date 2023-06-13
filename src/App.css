@@ -1,17 +1,103 @@
-.App {
+
+
+.Center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+/* Header CSS */
+
+.header{
+  background-color: #8e9394;
+  color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* Header End */
+
+
+
+
+/* AddContact*/
+.itemJustify{
+  background-color: #cfd2d3;
+  /* border : 2px solid #8e9394; */
+  /* height: 100px; */
+  padding: 30px 0;
+  margin-bottom: 10px;
 }
+
+.space{
+  margin:0px 10px;
+}
+
+input{
+  border-radius: 8px;
+}
+
+/* AddContact End*/
+
+
+
+
+
+/*Card*/
+
+
+
+.card-display{
+  /* border: 2px solid black; */
+  display: flex;
+  /* justify-content: space-around; */
+  /* height:100px; */
+  padding:28px 0px;
+  margin:10px 10px;
+  border: spx solid #ebeff0;
+  border-radius: 40px 0px 40px 0px;
+  background-color: #ebeff0;
+}
+
+.card-display p{
+  font-size: 25px;
+}
+
+.add-Margin{
+  margin: 0px 10px;
+}
+
+.user-detail{
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.name-sec{
+  display: flex;
+  align-items: center;
+}
+
+.Button-Sec-display{
+  width:40%;
+}
+
+.Button-Sec-hide{
+  display: none;
+}
+
+.Button-Sec-display Button{
+  float: right;
+}
+
+.edit-page-hide{
+  display:none;
+}
+
+
+
+/*Card End*/
+
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +110,4 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
